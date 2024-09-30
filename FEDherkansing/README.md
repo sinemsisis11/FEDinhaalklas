@@ -139,7 +139,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
+  -h1 aanpassen een background normaal maken, dus met kleur en daarna gewoon een tekst. 
   - punt 1
   - punt 2
   - nog een punt
