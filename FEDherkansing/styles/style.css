@@ -10,18 +10,24 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
+@font-face {
+	font-family: robotoRegular;
+	src: url(fonts/robotoRegular.woff2);
+  }
+  
 :root {
   /* startje */
   --color-text: #111;
   --color-background1: #eee;
   --color-background: rgb(19, 39, 72);
+  --color-text: #eee;
 }
 
-@font-face {
-  font-family: robotoRegular;
-  src: url(fonts/robotoRegular.woff2);
-}
 
+html{
+	font-family: robotoRegular, sans-serif;
+}
 
 img {
   max-width: 100%;
@@ -36,6 +42,7 @@ img {
 body {
   margin: 0;
   font-family: robotoRegular;
+  color: --color-text;
 }
 header {
   background-color: var(--color-background);
@@ -47,6 +54,7 @@ header img {
   width: 4em;
   margin-left: 1em;
   margin-top: .75em;
+
 }
 
 header ul li {
@@ -55,12 +63,15 @@ header ul li {
   padding: 0 1em;
   line-height: 1;
   margin-left: -1.75em;
+ 
+
 }
 
 header ul {
   background-color: var(--color-background1);
   margin: 0;
   list-style-type: none;
+  
 }
 
 header a {
@@ -68,8 +79,3 @@ header a {
 	color: var(--color-text);
   }
   
-
-
-main{
-	background-color: var(--color-background);
-}
