@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: robotoRegular;
-  src: url(robotoRegular.woff2);
+  src: url(fonts/robotoRegular.woff2);
 }
 
 
@@ -40,13 +40,14 @@ body {
 header {
   background-color: var(--color-background);
   right: 100%;
+  font-family: robotoRegular;
 }
+
 header img {
   width: 4em;
   margin-left: 1em;
   margin-top: .75em;
 }
-
 
 header ul li {
   margin-top: 0.5em;
