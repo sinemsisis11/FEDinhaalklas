@@ -13,7 +13,7 @@
 
 @font-face {
 	font-family: robotoRegular;
-	src: url(fonts/robotoRegular.woff2);
+	src: url("../fonts/robotoRegular.woff2");
   }
   
 :root {
@@ -21,13 +21,10 @@
   --color-text: #111;
   --color-background1: #eee;
   --color-background: rgb(19, 39, 72);
-  --color-text: #eee;
+ 
 }
 
 
-html{
-	font-family: robotoRegular, sans-serif;
-}
 
 img {
   max-width: 100%;
@@ -41,13 +38,14 @@ img {
 
 body {
   margin: 0;
-  font-family: robotoRegular;
-  color: --color-text;
+  /* font-family: robotoRegular; */
+  font-family: robotoRegular, sans-serif;
 }
+
 header {
   background-color: var(--color-background);
   right: 100%;
-  font-family: robotoRegular;
+  /* font-family: robotoRegular; */
 }
 
 header img {
