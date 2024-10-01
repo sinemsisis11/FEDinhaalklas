@@ -1,51 +1,74 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-	--color-background: rgb(19,39,72);
+  /* startje */
+  --color-text: #111;
+  --color-background1: #eee;
+  --color-background: rgb(19, 39, 72);
+}
+
+@font-face {
+  font-family: robotoRegular;
+  src: url(robotoRegular.woff2);
 }
 
 
-
-
+img {
+  max-width: 100%;
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
-header{
-	background-color: var(--color-background);
-	background-color: var(--color-background);
-	left: 0%;
-	top:0%;
-	
+
+body {
+  margin: 0;
+  font-family: robotoRegular;
 }
-header img{
-width: 4em;
+header {
+  background-color: var(--color-background);
+  right: 100%;
+}
+header img {
+  width: 4em;
+  margin-left: 1em;
+  margin-top: .75em;
 }
 
 
-header ul{
+header ul li {
+  margin-top: 0.5em;
+  min-height: 1.5em;
+  padding: 0 1em;
+  line-height: 1;
+  margin-left: -1.75em;
+}
+
+header ul {
+  background-color: var(--color-background1);
+  margin: 0;
+  list-style-type: none;
+}
+
+header a {
+	text-decoration: none;
+	color: var(--color-text);
+  }
+  
+
+
+main{
 	background-color: var(--color-background);
 }
-
-
-
-
-
