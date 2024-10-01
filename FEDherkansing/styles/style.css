@@ -17,7 +17,7 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
-	--color-background: rgb(19,39,72)
+	--color-background: rgb(19,39,72);
 }
 
 
@@ -29,8 +29,23 @@
 /****************/
 
 /* jouw code */
-
+header{
+	background-color: var(--color-background);
+	background-color: var(--color-background);
+	left: 0%;
+	top:0%;
+	
+}
 header img{
 width: 4em;
 }
- 
+
+
+header ul{
+	background-color: var(--color-background);
+}
+
+
+
+
+
