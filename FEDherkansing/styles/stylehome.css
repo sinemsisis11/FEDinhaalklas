@@ -7,7 +7,7 @@
     --color-textred: rgb(254, 71, 72);
   }
   
-  section:first-of-type {
+  /* section:first-of-type {
     position:relative;
     
 }
@@ -22,7 +22,7 @@ section:first-of-type img {
 
 section:first-of-type img:nth-of-type(2) {
     position:absolute;
-} 
+}  */
 
 section:nth-of-type(2){
    background-color: var(--color-background2);
