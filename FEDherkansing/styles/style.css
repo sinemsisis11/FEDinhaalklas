@@ -91,6 +91,7 @@ header a {
   header > button:last-of-type{
 	border: none;
     background: none;
+    width: 7em;
 }
 
 
