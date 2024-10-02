@@ -7,7 +7,7 @@
     --color-textred: rgb(254, 71, 72);
   }
   
-  /* section:first-of-type {
+   /* section:first-of-type {
     position:relative;
     
 }
@@ -22,7 +22,7 @@ section:first-of-type img {
 
 section:first-of-type img:nth-of-type(2) {
     position:absolute;
-}  */
+}   */
 
 section:nth-of-type(2){
    background-color: var(--color-background2);
@@ -39,7 +39,7 @@ section:nth-of-type(2) article{
     background-color: var(--color-background1);
    margin-top: 2em;
    position:relative;
-   width: 70%;
+   width: 100%;
 
 }
 
@@ -83,4 +83,24 @@ section:nth-of-type(2) article button{
     color: var(--color-background1);
  }
 
+
+ /* section:nth-of-type(4){
+    position: relative;
+ }
+
+  section:nth-of-type(4) img{
+    position: absolute;
+  
+    bottom: 0;
+    margin: 0;
+ }
+
+ section:nth-of-type(4) img:nth-of-type(2){
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+
+ } */
+
+ 
  
