@@ -61,13 +61,13 @@ header img {
 
 nav{
 	flex-basis:100%;
-  translate: 0 -140% ;
+  translate: 0% -140% ;
   transition:.3s;
 
 }
 
 nav.toonMenu {
-   translate:0;
+   translate:0%;
   
 }
 
