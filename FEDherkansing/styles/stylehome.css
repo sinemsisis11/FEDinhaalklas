@@ -28,7 +28,6 @@ section:nth-of-type(2){
    background-color: var(--color-background2);
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
    gap: 3em;
 }
 section:nth-of-type(2) h2{
@@ -102,5 +101,4 @@ section:nth-of-type(2) article button{
 
  } */
 
- 
  
