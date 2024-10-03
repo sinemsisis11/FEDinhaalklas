@@ -21,7 +21,7 @@
   --color-text: #111;
   --color-background1: rgb(255, 255, 255);
   --color-background: rgb(19, 39, 72);
- 
+  --color-button: rgb(1, 74, 127);
 }
 
 
@@ -107,9 +107,9 @@ header a {
   }
 
 
-
+/* 
   summary{
     display: flex;
     justify-content: start ;
     
-  }
+  } */
