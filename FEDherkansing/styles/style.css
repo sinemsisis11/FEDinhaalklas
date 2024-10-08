@@ -12,19 +12,20 @@
 /*********************/
 
 @font-face {
-	font-family: robotoRegular;
-	src: url("../fonts/robotoRegular.woff2");
-  }
-  
+  font-family: robotoRegular;
+  src: url("../fonts/robotoRegular.woff2");
+}
+
 :root {
   /* startje */
   --color-text: #111;
   --color-background1: rgb(255, 255, 255);
   --color-background: rgb(19, 39, 72);
+  --color-background2: rgb(229, 216, 249);
+  --color-textred: rgb(254, 71, 72);
   --color-button: rgb(1, 74, 127);
+  --blokje-shadow-color: rgb(216, 206, 233);
 }
-
-
 
 img {
   max-width: 100%;
@@ -40,7 +41,7 @@ body {
   margin: 0;
   /* font-family: robotoRegular; */
   font-family: robotoRegular, sans-serif;
-  background-color: var(--color-background); 
+  background-color: var(--color-background);
 }
 
 header {
@@ -48,7 +49,7 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  
+
   /* right: 100%; */
   /* font-family: robotoRegular; */
 }
@@ -56,56 +57,49 @@ header {
 header img {
   width: 7em;
   margin-left: 1em;
-  margin-right:auto;
+  margin-right: auto;
 }
 
-nav{
-	flex-basis:100%;
-  translate: 0% -140% ;
-  transition:.3s;
-
+nav {
+  flex-basis: 100%;
+  translate: 0% -140%;
+  transition: 0.3s;
 }
 
 nav.toonMenu {
-   translate:0%;
-  
+  translate: 0%;
 }
 
 header ul li {
   min-height: 1.5em;
-  padding: .75em;
+  padding: 0.75em;
   line-height: 1;
   margin-left: -1.75em;
-
 }
 
 header ul {
   background-color: var(--color-background1);
   margin: 0;
   list-style-type: none;
-  
 }
 
 header a {
-	text-decoration: none;
-	color: var(--color-text);
-	font-size: small;
-  }
-
-  header > button{
-	padding: 1em 2.5em 1em 2.5em;
-  border-radius: .2em;
-  border: none;
-  
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: small;
 }
 
+header > button {
+  padding: 1em 2.5em 1em 2.5em;
+  border-radius: 0.2em;
+  border: none;
+}
 
-  header > button:last-of-type{
-	  border: none;
-    background: none;
-    width: 7em;
-  }
-
+header > button:last-of-type {
+  border: none;
+  background: none;
+  width: 7em;
+}
 
 /* 
   summary{
