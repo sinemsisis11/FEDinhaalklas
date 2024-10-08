@@ -34,9 +34,13 @@ section:nth-of-type(2) article{
    margin-top: 4em;
    position:relative;
    width: 17em;
+   height: 20em;
    box-shadow: .25em .25em .25em .25em var(--blokje-shadow-color);
    
+   
+   
 }
+
 
 section:nth-of-type(2) h3{
     color: var(--color-textred);
@@ -57,11 +61,9 @@ section:nth-of-type(2) article button{
     background-color: var(--color-button);
     border: none;
     border-radius: .1em;
-    font-weight: bolder;
     padding: .5em 1.5em .5em 1.5em;
     font-size: larger;
-    
-     
+   text-transform: uppercase;
  }
 
 
@@ -72,11 +74,21 @@ section:nth-of-type(2) article button{
    left: .01em;
 
  }
- 
-  
+
+ section:nth-of-type(2) button{
+   border:none;
+   background-color: var(--color-button);
+   border-radius: .1em;
+   color: var(--color-background1);
+    padding: .75em 2em .75em 2em;
+    font-size: larger;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+ }
 
  section:nth-of-type(3) p{
     color: var(--color-background1);
+
  }
 
 

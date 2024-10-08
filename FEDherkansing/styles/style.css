@@ -12,10 +12,14 @@
 /*********************/
 
 @font-face {
-  font-family: robotoRegular;
+  font-family: robotoRegular, Arial, Helvetica, sans-serif;
   src: url("../fonts/robotoRegular.woff2");
 }
 
+@font-face {
+  font-family: latoRegular, Arial, Helvetica, sans-serif;
+  src: url("../fonts/latoRegular.woff2");
+}
 :root {
   /* startje */
   --color-text: #111;
