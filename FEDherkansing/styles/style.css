@@ -69,6 +69,7 @@ nav {
   flex-basis: 100%;
   translate: 0% -140%;
   transition: 0.3s;
+  z-index: 1;
 }
 
 nav.toonMenu {
