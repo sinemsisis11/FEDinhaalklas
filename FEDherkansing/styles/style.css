@@ -29,6 +29,7 @@
   --color-textred: rgb(254, 71, 72);
   --color-button: rgb(1, 74, 127);
   --blokje-shadow-color: rgb(216, 206, 233);
+  --color-footertext: rgb(110, 123, 131);
 }
 
 img {
@@ -111,3 +112,15 @@ header > button:last-of-type {
     justify-content: start ;
     
   } */
+
+
+footer li{
+  list-style-type: none;
+  
+}
+
+
+footer a{
+  text-decoration: none;
+  color: var(--color-footertext);
+}
