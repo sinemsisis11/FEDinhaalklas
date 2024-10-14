@@ -114,14 +114,50 @@ header > button:last-of-type {
     
   } */
 
-
-footer li{
+footer li {
   list-style-type: none;
-  
 }
 
-
-footer a{
+footer a {
   text-decoration: none;
   color: var(--color-footertext);
 }
+
+/* @media (min-width: 38em) {
+  header > button {
+   
+    position: absolute;
+    left: -9999em;
+  }
+
+  nav {
+   
+    position: static;
+    translate: unset;
+    padding: 0;
+    background: none;
+  }
+
+  nav button {
+  
+    position: absolute;
+    left: -9999em;
+  }
+
+  nav ul {
+   
+    display: flex;
+    gap: 1em;
+  }
+
+  nav a {
+  
+    border: none;
+    flex-direction: column;
+  }
+
+  header > a:last-of-type {
+    
+    flex-direction: column;
+  }
+} */
