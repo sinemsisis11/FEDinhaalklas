@@ -54,6 +54,7 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
 
   /* right: 100%; */
   /* font-family: robotoRegular; */
@@ -128,10 +129,13 @@ footer a {
    
     position: absolute;
     left: -9999em;
+    
+  }
+  header{
+    flex-wrap: nowrap;
   }
 
   nav {
-   
     position: static;
     translate: unset;
     padding: 0;
@@ -149,16 +153,16 @@ footer a {
     display: flex;
     gap: 1em;
   }
-
-  nav a {
   
-    border: none;
+  details ul{
+    display: flex;
     flex-direction: column;
   }
 
-  header > a:last-of-type {
-    
-    flex-direction: column;
+  header img{
+    align-self: flex-start;
+    z-index: 1;
   }
+ 
 }  
 

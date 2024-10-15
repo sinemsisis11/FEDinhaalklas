@@ -10,22 +10,21 @@
 
 section:first-of-type {
   position: relative;
-  /* height: 15em; */
+  height: 15em; 
 }
 
 section:first-of-type img {
   position: absolute;
   margin: 0%;
+  top: 0;
   bottom: 0;
+  /* object-position: center center;
+  height: 100%;
+  object-fit: cover; */
 }
 
 
-@media (min-width: 38em) {
-   section:nth-of-type(1) img{
-      height: 25em;
-   }
-   
-}
+
 
 section:first-of-type img:nth-of-type(2) {
   position: absolute;
@@ -73,6 +72,7 @@ section:nth-of-type(2) article button {
   padding: 0.5em 1.5em 0.5em 1.5em;
   font-size: medium;
   text-transform: uppercase;
+
 }
 
 section:nth-of-type(2) article img {
@@ -104,8 +104,6 @@ section:nth-of-type(3) p {
   color: var(--color-background1);
   width: 24em;
 }
-
-
 
 
 
