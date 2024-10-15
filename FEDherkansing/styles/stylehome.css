@@ -19,6 +19,14 @@ section:first-of-type img {
   bottom: 0;
 }
 
+
+@media (min-width: 38em) {
+   section:nth-of-type(1) img{
+      height: 25em;
+   }
+   
+}
+
 section:first-of-type img:nth-of-type(2) {
   position: absolute;
 }
