@@ -16,7 +16,7 @@ section:first-of-type {
 section:first-of-type img {
   position: absolute;
   margin: 0;
-  top: 0;
+  /* top: 0; */
   bottom: 0;
   /* object-position: center center;
   height: 100%;
@@ -39,12 +39,44 @@ section:nth-of-type(2) {
 }
 
 section:nth-of-type(2) article {
-  background-color: var(--color-background1);
+  /* background-color: var(--color-background1); */
+
+  background-image: 
+   radial-gradient(
+      circle at left top, 
+      transparent 2em, 
+      white 0
+   ),
+   radial-gradient(
+      circle at right top, 
+      transparent 2em, 
+      white 0
+   ),
+   radial-gradient(
+      circle at right bottom, 
+      transparent 2em, 
+      white 0
+   ),
+   radial-gradient(
+      circle at left bottom, 
+      transparent 2em, 
+      white 0
+   )
+   ;
+
+   background-size: 50% 50%;
+   background-repeat: no-repeat;
+   background-position: 
+      left top,
+      right top,
+      right bottom,
+      left bottom;
   margin-top: 4em;
   position: relative;
   width: 17em;
   height: 24em;
-  box-shadow: 0.25em 0.25em 0.25em 0.25em var(--blokje-shadow-color);
+  /* box-shadow: 0.25em 0.25em 0.25em 0.25em var(--blokje-shadow-color); */
+  filter: drop-shadow(0.5em 0.5em 0.25em var(--blokje-shadow-color));
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -104,8 +136,6 @@ section:nth-of-type(3) p {
   color: var(--color-background1);
   width: 24em;
 }
-
-
 
 
 section:nth-of-type(4) {
