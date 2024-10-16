@@ -50,7 +50,6 @@ body {
 }
 
 header {
-  background-color: var(--color-background);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -71,6 +70,7 @@ nav {
   translate: 0% -140%;
   transition: 0.3s;
   z-index: 1;
+  
 }
 
 nav.toonMenu {
@@ -103,7 +103,6 @@ header > button {
 }
 
 header > button:last-of-type {
-  border: none;
   background: none;
   width: 7em;
 }
@@ -125,39 +124,51 @@ footer a {
 }
 
  @media (min-width: 38em) {
-  header > button {
+  header button:nth-of-type(2) {
    
     position: absolute;
     left: -9999em;
-    
+    align-self: flex-start;
   }
+
+ header > button{
+  align-self: flex-start;
+} 
   header{
     flex-wrap: nowrap;
+    
   }
-
+  
   nav {
-    position: static;
     translate: unset;
     padding: 0;
-    background: none;
+
   }
 
-  nav button {
-  
-    position: absolute;
-    left: -9999em;
-  }
+
 
   nav ul {
-   
     display: flex;
     gap: 1em;
+    background: none;
+    justify-content: center;
+
   }
-  
+
+  header a{
+    color: var(--color-background1);
+  }
   details ul{
     display: flex;
     flex-direction: column;
+    background-color: var(--color-background1);
+    width: 10em;
+    gap:unset;
+  
   }
+details ul li a{
+  color: var(--color-text);
+}
 
   header img{
     align-self: flex-start;
