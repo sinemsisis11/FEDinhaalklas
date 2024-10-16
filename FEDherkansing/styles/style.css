@@ -12,12 +12,12 @@
 /*********************/
 
 @font-face {
-  font-family: robotoRegular, Arial, Helvetica, sans-serif;
+  font-family: robotoRegular;
   src: url("../fonts/robotoRegular.woff2");
 }
 
 @font-face {
-  font-family: latoRegular, Arial, Helvetica, sans-serif;
+  font-family: latoRegular;
   src: url("../fonts/latoRegular.woff2");
 }
 :root {
@@ -30,6 +30,7 @@
   --color-button: rgb(1, 74, 127);
   --blokje-shadow-color: rgb(216, 206, 233);
   --color-footertext: rgb(110, 123, 131);
+  --color-backgroundsection: rgb(6, 18, 26);
 }
 
 img {
