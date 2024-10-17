@@ -11,13 +11,19 @@
 section:first-of-type {
   /* position: relative; */
   background-image: url(/FEDherkansing/img/Backgroundsection1.jpg); 
+  margin: 0;
+  background-size: cover;
+  height: 35em;
 }
 
+h1{
+   margin: 0;
+}
 
-
-section:first-of-type img {
+section:first-of-type h1 img {
   /* position: absolute; */
   margin: 0;
+ 
   /* top: 0; */
    /* object-position: center center;
   height: 100%;
