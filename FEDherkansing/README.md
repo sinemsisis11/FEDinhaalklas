@@ -193,11 +193,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  -a + a allemaal behalve de eerste aanspreken. 
+  -in een footer gewoon navs maken ipv sections en aside.
+  -elke order is een 0 dus als je iets naar boven wilt halen moet je een -1 doen. 
+  -strong mag in de button, maar geen andere elementen.
 </details>
 
 
