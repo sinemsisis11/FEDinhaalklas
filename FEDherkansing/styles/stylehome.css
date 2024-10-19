@@ -10,26 +10,25 @@
 
 section:first-of-type {
   /* position: relative; */
-  background-image: url(/FEDherkansing/img/Backgroundsection1.jpg); 
+  background-image: url(/FEDherkansing/img/Backgroundsection1.jpg);
   margin: 0;
   background-size: cover;
   height: 35em;
 }
 
-h1{
-   margin: 0;
+h1 {
+  margin: 0;
 }
 
 section:first-of-type h1 img {
   /* position: absolute; */
   margin: 0;
- 
+
   /* top: 0; */
-   /* object-position: center center;
+  /* object-position: center center;
   height: 100%;
   object-fit: cover;  */
 }
-
 
 section:nth-of-type(2) {
   background-color: var(--color-background2);
@@ -95,7 +94,6 @@ section:nth-of-type(2) article img {
 }
 
 section:nth-of-type(2) button {
-  
   background-color: var(--color-button);
   border-radius: 0.3em;
   color: var(--color-background1);
@@ -105,54 +103,62 @@ section:nth-of-type(2) button {
   text-transform: uppercase;
 }
 
-section:nth-of-type(3){
+section:nth-of-type(3) {
   display: flex;
   flex-wrap: wrap;
 }
 
-section:nth-of-type(3) > img{
+section:nth-of-type(3) > img {
   width: 35.5em;
   order: -10;
- }
+}
 
- section:nth-of-type(3) button{
+section:nth-of-type(3) article h2 {
+  border-bottom: solid var(--color-background1);
+}
 
+section:nth-of-type(3) button {
   border-radius: 0.3em;
   color: var(--color-background);
   padding: 0.75em 2em 0.75em 2em;
   font-size: medium;
   margin-bottom: 2em;
   text-transform: uppercase;
- 
-  }
-  
-   
-  
- 
- 
+  margin-top: 3em;
+}
+
+section:nth-of-type(3) p:first-of-type {
+  font-size: large;
+  margin-bottom: 2em;
+}
+
+section:nth-of-type(3) article {
+  padding: 2em 2em 2em 2em;
+}
+
+
+
+
 section:nth-of-type(3) p {
   color: var(--color-background1);
-  width: 20em;
-
+  width: 23em;
+  font-size: small;
 }
 
 section:nth-of-type(4) {
   display: flex;
   flex-wrap: wrap;
-
 }
 
-section:nth-of-type(4) article{
-   position: relative;
-   flex-wrap: wrap;
+section:nth-of-type(4) article {
+  position: relative;
+  flex-wrap: wrap;
 }
-
 
 section:nth-of-type(4) article:nth-of-type(1) {
   background-image: url(/FEDherkansing/img/Background_left.jpg);
 
   width: 35.5em;
-
 }
 
 section:nth-of-type(4) article:nth-of-type(2) {
@@ -167,24 +173,22 @@ section:nth-of-type(4) button {
   color: var(--color-background1);
   text-transform: uppercase;
   font-size: small;
- position: absolute;
-left: 50%;
-bottom: 1em;  
-
- 
-  
+  position: absolute;
+  left: 15em;
+  bottom: 1em;
+  transform: translate(50% -50%);
 }
 
-section:last-of-type{
-   display: flex;
-   background-color: var(--color-backgroundsection);
+section:last-of-type {
+  display: flex;
+  background-color: var(--color-backgroundsection);
 }
 
-section:last-of-type ul li img{
-   display: flex;
-   flex-wrap: nowrap;
+section:last-of-type ul li img {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-section:last-of-type ul li{
-   list-style-type: none;
- }
+section:last-of-type ul li {
+  list-style-type: none;
+}
