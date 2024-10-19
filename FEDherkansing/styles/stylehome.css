@@ -115,6 +115,7 @@ section:nth-of-type(3) > img {
 
 section:nth-of-type(3) article h2 {
   border-bottom: solid var(--color-background1);
+ 
 
 }
 
@@ -181,16 +182,22 @@ section:nth-of-type(4) button {
 }
 
 section:last-of-type {
-  display: flex;
   background-color: var(--color-backgroundsection);
+  display: flex;
 }
 
-section:last-of-type ul:nth-of-type(2) li img{
+section:last-of-type > ul{
   display: flex;
   flex-wrap: nowrap;
+  order: -10;
+
 
 }
+section:last-of-type p{
+ color: var(--color-background1);
 
+
+}
 section:last-of-type ul li {
   list-style-type: none;
 }
