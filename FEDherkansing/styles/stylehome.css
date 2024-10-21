@@ -124,7 +124,6 @@ section:nth-of-type(3) button {
   color: var(--color-background);
   padding: 0.75em 2em 0.75em 2em;
   font-size: medium;
-  margin-bottom: 2em;
   text-transform: uppercase;
   margin-top: 3em;
 }
@@ -191,15 +190,46 @@ section:last-of-type {
 section:last-of-type > ul{
   display: flex;
   flex-wrap: nowrap;
+	overflow:auto;
+	scroll-snap-type:x mandatory;
+	overscroll-behavior-x:contain;
+	scroll-behavior:smooth;
   order: -10;
-
-
+  width: 33em;
+ margin: 2em 2em 2em 2em;
 }
 section:last-of-type p{
  color: var(--color-background1);
 
 
 }
+
+section:last-of-type article{
+   width: 20em;
+   padding: 2em 2em 2em;
+ 
+ }
 section:last-of-type ul li {
   list-style-type: none;
+  scroll-snap-align:center;
+	flex-shrink:0;
+	width:18em;
+ 
 }
+
+
+
+
+
+
+
+
+/* 
+button:active{
+  background-color: blue;
+}
+
+button:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+} */
