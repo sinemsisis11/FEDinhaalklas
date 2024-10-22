@@ -64,7 +64,6 @@ section:nth-of-type(2) article {
   position: relative;
   width: 17em;
   height: 24em;
-  /* box-shadow: 0.25em 0.25em 0.25em 0.25em var(--blokje-shadow-color); */
   filter: drop-shadow(0.5em 0.5em 0.25em var(--blokje-shadow-color));
   display: flex;
   flex-wrap: wrap;
