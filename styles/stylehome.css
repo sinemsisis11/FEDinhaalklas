@@ -10,7 +10,7 @@
 
 section:first-of-type {
   /* position: relative; */
-  background-image: url(/img/Backgroundsection1.jpg);
+  background-image: url("/img/Backgroundsection1.jpg");
   margin: 0;
   background-size: cover;
   height: 35em;
@@ -173,14 +173,14 @@ section:nth-of-type(4) article {
 
 
 section:nth-of-type(4) article:nth-of-type(1) {
-  background-image: url(/img/Background_left.jpg);
+  background-image: url("/img/Background_left.jpg");
 width: 35.5em;
 background-size: cover;
  
 }
 
 section:nth-of-type(4) article:nth-of-type(2) {
-  background-image: url(/img/Background_right-2.jpg);
+  background-image: url("/img/Background_right-2.jpg");
   width: 35.5em;
   background-size: cover;
 }
