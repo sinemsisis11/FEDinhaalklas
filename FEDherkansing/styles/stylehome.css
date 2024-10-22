@@ -92,6 +92,7 @@ section:nth-of-type(2) article button {
   padding: 0.5em 1.5em 0.5em 1.5em;
   font-size: medium;
   text-transform: uppercase;
+  border: none;
 }
 
 section:nth-of-type(2) article img {
@@ -108,6 +109,7 @@ section:nth-of-type(2) button {
   font-size: medium;
   margin-bottom: 2em;
   text-transform: uppercase;
+  border: none;
 }
 
 section:nth-of-type(3) {
@@ -133,6 +135,7 @@ section:nth-of-type(3) button {
   font-size: medium;
   text-transform: uppercase;
   margin-top: 3em;
+  border: none;
 }
 
 section:nth-of-type(3) p:first-of-type {
@@ -158,11 +161,13 @@ section:nth-of-type(4) {
   display: flex;
   flex-wrap: wrap;
 
+
 }
 
 section:nth-of-type(4) article {
   position: relative;
-
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -182,14 +187,17 @@ section:nth-of-type(4) article:nth-of-type(2) {
 
 section:nth-of-type(4) button {
   background-color: var(--color-textred);
-
+  border-radius: .2em;
   padding: 0.75em 2em 0.75em 2em;
   color: var(--color-background1);
   text-transform: uppercase;
   font-size: small;
   position: absolute;
-  left: 15em;
-  bottom: 1em;
+  /* left: 15em; */
+  bottom: 0;
+  right: 50%;
+  border: none;
+ transform: translate(50%, -50%);
 }
 
 section:last-of-type {
@@ -230,8 +238,6 @@ section:last-of-type ul li {
 	width:18em;
  
 }
-
-
 
 
 
