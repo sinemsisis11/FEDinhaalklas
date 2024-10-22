@@ -14,10 +14,17 @@ section:first-of-type {
   margin: 0;
   background-size: cover;
   height: 35em;
+  background-position: center;
 }
 
 h1 {
   margin: 0;
+}
+
+section:first-of-type  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section:first-of-type h1 img {
