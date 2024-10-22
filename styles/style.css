@@ -31,7 +31,7 @@
   --blokje-shadow-color: rgb(216, 206, 233);
   --color-footertext: rgb(110, 123, 131);
   --color-backgroundsection: rgb(6, 18, 26);
-  --color-focus: rgb( 144, 238, 144);
+  --color-focus: rgb(144, 238, 144);
 }
 
 img {
@@ -52,21 +52,20 @@ body {
   background-color: var(--color-background);
 }
 
-button:focus{
-  box-shadow: 0 0 0 .2em var(--color-focus);
+button:focus {
+  box-shadow: 0 0 0 0.2em var(--color-focus);
   outline: none;
 }
 
-a:focus{
-  box-shadow: 0 0 0 .2em var(--color-focus);
+a:focus {
+  box-shadow: 0 0 0 0.2em var(--color-focus);
   outline: none;
 }
 
-summary:focus{
-  box-shadow: 0 0 0 .2em var(--color-focus);
+summary:focus {
+  box-shadow: 0 0 0 0.2em var(--color-focus);
   outline: none;
 }
-
 
 header {
   display: flex;
@@ -89,7 +88,7 @@ header img {
   margin-right: auto;
 }
 
-nav {
+header nav {
   translate: 0% -100%;
   transition: 0.3s;
   z-index: -1;
@@ -99,8 +98,6 @@ nav {
   padding-top: 5em;
   top: 0;
   background-color: var(--color-background);
-  margin-top: 1em;
-  
 }
 
 nav.toonMenu {
@@ -129,9 +126,6 @@ header > button {
   padding: 1em 2.5em 1em 2.5em;
   border-radius: 0.3em;
   border: none;
-  margin: 1em 1em 1em 1em;
-
- 
 }
 
 header > button:last-of-type {
@@ -146,70 +140,73 @@ header > button:last-of-type {
     
   } */
 
-
- @media (min-width: 38em) {
+@media (min-width: 38em) {
   header button:nth-of-type(2) {
-   
     position: absolute;
     left: -9999em;
     align-self: flex-start;
   }
 
- header > button{
-  align-self: flex-start;
-} 
-  header{
-    flex-wrap: nowrap;
-    
+  header > button {
+    align-self: flex-start;
   }
-  
-  nav {
+  header {
+    flex-wrap: nowrap;
+  }
+
+  header nav {
     translate: unset;
     padding: 0;
-
   }
 
-
-
-  nav ul {
+  header nav ul {
     display: flex;
     gap: 1em;
     background: none;
     justify-content: center;
-
   }
 
-  header a{
+  header a {
     color: var(--color-background1);
   }
-  details ul{
+  details ul {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-background1);   
+    background-color: var(--color-background1);
     width: 10em;
-    gap:unset;
-  
+    gap: unset;
   }
-details ul li a{
-  color: var(--color-text);
-}
+  details ul li a {
+    color: var(--color-text);
+  }
 
-  header img{
+  header img {
     align-self: flex-start;
     z-index: 1;
   }
- 
-}  
-
-footer{
-  display: flex;
 }
+
+footer {
+  display: flex;
+  gap: 3em;
+  flex-wrap: wrap;
+}
+
 footer li {
-list-style-type: none;
-color: var(--color-footertext)
+  list-style-type: none;
+  color: var(--color-footertext);
+  line-height: 2em;
+}
+
+footer img {
+  width: 2em;
 }
 
 footer a {
-text-decoration: none;
-color: var(--color-footertext);
+  text-decoration: none;
+  color: var(--color-footertext);
+}
+
+footer nav:nth-of-type(2){
+  display: flex;
 }
