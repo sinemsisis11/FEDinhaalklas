@@ -14,6 +14,7 @@
 @font-face {
   font-family: robotoRegular;
   src: url("../fonts/robotoRegular.woff2");
+  font-weight:600;
 }
 
 @font-face {
@@ -32,6 +33,7 @@
   --color-footertext: rgb(110, 123, 131);
   --color-backgroundsection: rgb(6, 18, 26);
   --color-focus: rgb(144, 238, 144);
+  --color-footerbutton:rgb(108, 117, 125);
 }
 
 img {
@@ -50,6 +52,10 @@ body {
   font-family: robotoRegular, sans-serif;
   font-family: latoRegular, Arial;
   background-color: var(--color-background);
+}
+
+button{
+ font-family: latoRegular;
 }
 
 button:focus {
@@ -152,42 +158,31 @@ header > button:last-of-type {
     align-self: flex-start;
   }
 
-  header > button {
-    align-self: flex-start;
-  }
-  header {
-    flex-wrap: nowrap;
-  }
-
   header nav {
     translate: unset;
     padding: 0;
+  
   }
 
   header nav ul {
     display: flex;
-    gap: 1em;
+    gap: .1em;
     background: none;
     justify-content: center;
+   
   }
+ 
 
-  header a {
-    color: var(--color-background1);
-  }
   details ul {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-background1);
     width: 10em;
-    gap: unset;
-  }
-  details ul li a {
-    color: var(--color-text);
+  
   }
 
   header img {
     align-self: flex-start;
-    z-index: 1;
+
   }
 }
 
@@ -214,4 +209,13 @@ footer a {
 
 footer nav:nth-of-type(2){
   display: flex;
+}
+
+footer button{
+  padding: 1em 2.5em 1em 2.5em;
+  border-radius: 0.3em;
+  border: none;
+  color: var(--color-background1);
+  font-weight: bolder;
+  background-color: var( --color-footerbutton) ;
 }
