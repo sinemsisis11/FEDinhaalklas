@@ -67,6 +67,11 @@ summary:focus {
   outline: none;
 }
 
+section:last-of-type > ul:focus{
+  box-shadow: 0 0 0 0.2em var(--color-focus);
+  outline: none;
+}
+
 header {
   display: flex;
   align-items: center;
