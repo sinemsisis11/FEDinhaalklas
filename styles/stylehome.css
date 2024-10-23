@@ -199,6 +199,10 @@ section:nth-of-type(4) button {
  transform: translate(50%, -50%);
 }
 
+
+
+
+
 section:last-of-type {
   background-color: var(--color-backgroundsection);
   display: flex;
@@ -208,7 +212,21 @@ section:last-of-type {
 section:last-of-type h2{
   border-bottom: solid var(--color-background1);
 }
-section:last-of-type > ul{
+
+section:last-of-type p{
+ color: var(--color-background1);
+
+
+}
+
+section:last-of-type article{
+   width: 20em;
+   padding: 2em 2em 2em;
+
+ 
+ }
+
+ section:last-of-type > ul{
   display: flex;
   flex-wrap: nowrap;
 	overflow:auto;
@@ -219,26 +237,43 @@ section:last-of-type > ul{
   width: 33em;
  margin: 2em 2em 2em 2em;
 }
-section:last-of-type p{
- color: var(--color-background1);
-
-
-}
-
-section:last-of-type article{
-   width: 20em;
-   padding: 2em 2em 2em;
- 
- }
-section:last-of-type ul li {
+section:last-of-type > ul li {
   list-style-type: none;
   scroll-snap-align:center;
 	flex-shrink:0;
-	width:18em;
+	width:18em; 
  
 }
 
 
+
+
+section:last-of-type nav {
+  order: -9;
+  
+ }
+
+
+
+section:last-of-type nav ul{
+ display: flex;
+ list-style: none;
+ /* width: 4em; */
+
+}
+
+
+
+section:last-of-type nav ul li a{
+  display:block;
+  width: 1em;
+  aspect-ratio:1/1;
+  background-color:rgb(65, 65, 65);
+  margin: .2em;
+
+
+
+}
 
 
 
