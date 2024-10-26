@@ -192,7 +192,7 @@ section:nth-of-type(4) button {
   text-transform: uppercase;
   font-size: small;
   position: absolute;
-  /* left: 15em; */
+
   bottom: 0;
   right: 50%;
   border: none;
