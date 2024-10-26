@@ -114,6 +114,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1;
+  top:0;
 
   /* right: 100%; */
   /* font-family: robotoRegular; */
@@ -137,9 +138,9 @@ header nav {
   background-color: var(--color-background);
 }
 
-/* nav.toonMenu {
+nav.toonMenu {
   translate: 0%;
-} */
+} 
 
 header ul li {
   min-height: 1.5em;
