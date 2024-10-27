@@ -21,7 +21,7 @@
   font-family: latoRegular;
   src: url("../fonts/latoRegular.woff2");
 }
- :root {
+:root {
 
   --color-text: #111;
   --color-background1: rgb(255, 255, 255);
@@ -34,9 +34,9 @@
   --color-backgroundsection: rgb(6, 18, 26);
   --color-focus: rgb(144, 238, 144);
   --color-footerbutton:rgb(108, 117, 125);
-}  
-
-/* :root {
+}   
+/* 
+:root {
 	
 	color-scheme:light dark;
 
@@ -59,9 +59,21 @@
 
 :root:has([value="dark"]:checked) {
 	color-scheme:dark;
-}  */
+}   */
 
-
+/* html{
+  --color-text: light-dark(#111, #fff);
+  --color-background1:light-dark(rgb(255, 255, 255),rgb(0,0,0)) ;
+  --color-background: light-dark(rgb(19, 39, 72),rgb(236, 216, 183));
+  --color-background2: light-dark (rgb(229, 216, 249),rgb(26, 39, 6));
+  --color-textred: light-dark (rgb(254, 71, 72),rgb(1, 184, 183));
+  --color-button:light-dark (rgb(1, 74, 127),rgb(254, 181, 128));
+  --blokje-shadow-color:light-dark (rgb(216, 206, 233),rgb(39, 49, 22));
+  --color-footertext:light-dark (rgb(110, 123, 131),rgb(145, 132, 124)) ;
+  --color-backgroundsection: light-dark (rgb(6, 18, 26),rgb(249, 237, 229));
+  --color-focus: light-dark (rgb(144, 238, 144),rgb(111, 17, 111));
+  --color-footerbutton:light-dark (rgb(108, 117, 125),rgb(147, 138, 130));
+} */
 img {
   max-width: 100%;
 }
@@ -217,6 +229,7 @@ footer {
   display: flex;
   gap: 3em;
   flex-wrap: wrap;
+  background-color: var(--color-background);
 }
 
 footer li {
