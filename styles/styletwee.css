@@ -36,18 +36,21 @@ section:first-of-type article:first-of-type {
 section:first-of-type article + article {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
 }
 section:first-of-type h2 {
   font-size: small;
 }
 section:first-of-type p {
   text-align: center;
+  color: var(--color-text);
 }
 
 section:first-of-type p + p {
   text-transform: uppercase;
   color: var(--color-textred);
-  font-family: openSansCondensedLight; ;
+  font-family: openSansCondensedLight; 
+  
 }
 
 section:first-of-type > img {
