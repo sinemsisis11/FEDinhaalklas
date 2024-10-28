@@ -21,7 +21,7 @@ h1 {
   margin: 0;
 }
 
-section:first-of-type  {
+section:first-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,11 +87,9 @@ section:nth-of-type(2) article p {
 section:nth-of-type(2) article button {
   color: var(--color-background1);
   background-color: var(--color-button);
-  border-radius: 0.3em;
   padding: 0.5em 1.5em 0.5em 1.5em;
-  font-size: medium;
-  text-transform: uppercase;
   border: none;
+  font-family: openSansCondensedLight;
 }
 
 section:nth-of-type(2) article img {
@@ -102,13 +100,9 @@ section:nth-of-type(2) article img {
 
 section:nth-of-type(2) button {
   background-color: var(--color-button);
-  border-radius: 0.3em;
   color: var(--color-background1);
-  padding: 0.75em 2em 0.75em 2em;
-  font-size: medium;
+  padding: .75em 2em .75em 2em;
   margin-bottom: 2em;
-  text-transform: uppercase;
-  border: none;
 }
 
 section:nth-of-type(3) {
@@ -123,18 +117,12 @@ section:nth-of-type(3) > img {
 
 section:nth-of-type(3) article h2 {
   border-bottom: solid var(--color-background1);
- 
-
 }
 
 section:nth-of-type(3) button {
-  border-radius: 0.3em;
   color: var(--color-background);
   padding: 0.75em 2em 0.75em 2em;
-  font-size: medium;
-  text-transform: uppercase;
   margin-top: 3em;
-  border: none;
 }
 
 section:nth-of-type(3) p:first-of-type {
@@ -147,9 +135,6 @@ section:nth-of-type(3) article {
   width: 24em;
 }
 
-
-
-
 section:nth-of-type(3) p {
   color: var(--color-background1);
 
@@ -159,8 +144,6 @@ section:nth-of-type(3) p {
 section:nth-of-type(4) {
   display: flex;
   flex-wrap: wrap;
-
-
 }
 
 section:nth-of-type(4) article {
@@ -169,13 +152,10 @@ section:nth-of-type(4) article {
   justify-content: center;
 }
 
-
-
 section:nth-of-type(4) article:nth-of-type(1) {
   background-image: url("../img/Background_left.jpg");
-width: 35.5em;
-background-size: cover;
- 
+  width: 35.5em;
+  background-size: cover;
 }
 
 section:nth-of-type(4) article:nth-of-type(2) {
@@ -186,22 +166,14 @@ section:nth-of-type(4) article:nth-of-type(2) {
 
 section:nth-of-type(4) button {
   background-color: var(--color-textred);
-  border-radius: .2em;
   padding: 0.75em 2em 0.75em 2em;
   color: var(--color-background1);
-  text-transform: uppercase;
-  font-size: small;
   position: absolute;
-
+  font-size: small;
   bottom: 0;
   right: 50%;
-  border: none;
- transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
 }
-
-
-
-
 
 section:last-of-type {
   background-color: var(--color-backgroundsection);
@@ -209,76 +181,74 @@ section:last-of-type {
   flex-wrap: wrap;
 }
 
-section:last-of-type h2{
+section:last-of-type h2 {
   border-bottom: solid var(--color-background1);
 }
 
-section:last-of-type p{
- color: var(--color-background1);
+section:last-of-type p {
+  color: var(--color-background1);
 }
 
-section:last-of-type article{
-   width: 20em;
-   padding: 2em 2em 2em;
- }
+section:last-of-type article {
+  width: 20em;
+  padding: 2em 2em 2em;
+}
 
- section:last-of-type > ul{
+section:last-of-type article ul {
+  display: flex;
+}
+
+section:last-of-type article img {
+  width: 3em;
+}
+
+section:last-of-type article ul li {
+  list-style: none;
+  padding: 0.1em;
+}
+
+section:last-of-type article h2 img {
+  width: 10em;
+}
+
+section:last-of-type > ul {
   display: flex;
   flex-wrap: nowrap;
-	overflow:auto;
-	scroll-snap-type:x mandatory;
-	overscroll-behavior-x:contain;
-	scroll-behavior:smooth;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
   order: -10;
   width: 33em;
- margin: 2em 2em 2em 2em;
-
+  margin: 2em 2em 2em 2em;
 }
 section:last-of-type > ul li {
   list-style-type: none;
-  scroll-snap-align:center;
-	flex-shrink:0;
-	width:18em; 
- 
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  width: 18em;
 }
-
 
 section:last-of-type nav {
   order: -9;
- }
-
-
-
-section:last-of-type nav ul{
- display: flex;
- list-style: none;
-
- 
-
 }
 
+section:last-of-type nav ul {
+  display: flex;
+  list-style: none;
+}
 
-
-section:last-of-type nav ul li a{
-  display:block;
+section:last-of-type nav ul li a {
+  display: block;
   width: 1em;
-  aspect-ratio:1/1;
+  aspect-ratio: 1/1;
   background-color: var(--color-background1);
-  margin: .2em;
- 
-
-
+  margin: 0.2em;
 }
-
 
 @media (min-width: 38em) {
   section:last-of-type nav {
     position: absolute;
     left: -9999em;
   }
-
-  
-
 }
-
-  

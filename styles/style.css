@@ -14,7 +14,16 @@
 @font-face {
   font-family: robotoRegular;
   src: url("../fonts/robotoRegular.woff2");
-  font-weight:600;
+}
+
+@font-face {
+  font-family: openSansCondensedLight;
+  src: url("../fonts/openSansCondensedLight.woff2");
+}
+
+@font-face {
+  font-family: robotoMedium;
+  src: url("../fonts/robotoMedium.woff2");
 }
 
 @font-face {
@@ -22,7 +31,6 @@
   src: url("../fonts/latoRegular.woff2");
 }
 :root {
-
   --color-text: #111;
   --color-background1: rgb(255, 255, 255);
   --color-background: rgb(19, 39, 72);
@@ -33,9 +41,10 @@
   --color-footertext: rgb(110, 123, 131);
   --color-backgroundsection: rgb(6, 18, 26);
   --color-focus: rgb(144, 238, 144);
-  --color-footerbutton:rgb(108, 117, 125);
+  --color-footerbutton: rgb(108, 117, 125);
   --color-buttonsecondpage: rgb(2, 170, 250);
-}   
+  --color-backgroundsecond:rgb(243, 236, 252);
+}
 /* 
 :root {
 	
@@ -62,19 +71,7 @@
 	color-scheme:dark;
 }   */
 
-/* html{
-  --color-text: light-dark(#111, #fff);
-  --color-background1:light-dark(rgb(255, 255, 255),rgb(0,0,0)) ;
-  --color-background: light-dark(rgb(19, 39, 72),rgb(236, 216, 183));
-  --color-background2: light-dark (rgb(229, 216, 249),rgb(26, 39, 6));
-  --color-textred: light-dark (rgb(254, 71, 72),rgb(1, 184, 183));
-  --color-button:light-dark (rgb(1, 74, 127),rgb(254, 181, 128));
-  --blokje-shadow-color:light-dark (rgb(216, 206, 233),rgb(39, 49, 22));
-  --color-footertext:light-dark (rgb(110, 123, 131),rgb(145, 132, 124)) ;
-  --color-backgroundsection: light-dark (rgb(6, 18, 26),rgb(249, 237, 229));
-  --color-focus: light-dark (rgb(144, 238, 144),rgb(111, 17, 111));
-  --color-footerbutton:light-dark (rgb(108, 117, 125),rgb(147, 138, 130));
-} */
+
 img {
   max-width: 100%;
 }
@@ -88,13 +85,32 @@ img {
 body {
   margin: 0;
   /* font-family: robotoRegular; */
-  font-family: robotoRegular, sans-serif;
-  font-family: latoRegular, Arial;
+  /* font-family: robotoRegular, sans-serif;
+  font-family: latoRegular, sans-serif;
+  font-family: openSansCondensedLight, sans-serif;
+  font-family: robotoMedium, Arial; */
   background-color: var(--color-background);
+  font-family: latoRegular, sans-serif;
+  
+
+}
+
+em {
+  text-transform: uppercase;
+  font-style: normal;
+  
 }
 
 button{
- font-family: latoRegular;
+  font-family: openSansCondensedLight;
+  border-radius: 0.1em;
+  font-size: large;
+  text-transform: uppercase;
+  border: none;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 
 button:focus {
@@ -112,7 +128,7 @@ summary:focus {
   outline: none;
 }
 
-section:last-of-type > ul:focus{
+section:last-of-type > ul:focus {
   box-shadow: 0 0 0 0.2em var(--color-focus);
   outline: none;
 }
@@ -127,7 +143,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1;
-  top:0;
+  top: 0;
 
   /* right: 100%; */
   /* font-family: robotoRegular; */
@@ -153,7 +169,7 @@ header nav {
 
 nav.toonMenu {
   translate: 0%;
-} 
+}
 
 header ul li {
   min-height: 1.5em;
@@ -174,14 +190,13 @@ header a {
 }
 
 header > button {
-  padding: 1em 2.5em 1em 2.5em;
-  border-radius: 0.3em;
-  border: none;
+  padding: .5em 1.5em .5em 1.5em;
+
 }
 
 header > button:last-of-type {
   background: none;
-  width: 7em;
+  width: 5em;
 }
 
 /* 
@@ -201,28 +216,23 @@ header > button:last-of-type {
   header nav {
     translate: unset;
     padding: 0;
-  
   }
 
   header nav ul {
     display: flex;
-    gap: .1em;
+    gap: 0.1em;
     background: none;
     justify-content: center;
-   
   }
- 
 
   details ul {
     display: flex;
     flex-direction: column;
     width: 10em;
-  
   }
 
   header img {
     align-self: flex-start;
-
   }
 }
 
@@ -248,15 +258,14 @@ footer a {
   color: var(--color-footertext);
 }
 
-footer nav:nth-of-type(2){
+footer nav:nth-of-type(2) {
   display: flex;
 }
 
-footer button{
-  padding: 1em 2.5em 1em 2.5em;
-  border-radius: 0.3em;
-  border: none;
+footer button {
+  padding: .5em 1.5em .5em 1.5em;
+
   color: var(--color-background1);
   font-weight: bolder;
-  background-color: var( --color-footerbutton) ;
+  background-color: var(--color-footerbutton);
 }
