@@ -17,19 +17,23 @@ section:first-of-type{
    
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 5em;
     
 }
 
 
 h1{
-    font-size: 5vw;
+    font-size: 3em;
     font-weight: bolder;
     text-transform: uppercase;
     color: var(--color-textred);
-   border-bottom:solid;
+   border-bottom:solid ;
+   
    
 }
-
+section:first-of-type article img:hover{
+    transform: scale(1.1);
+}
 
 section:first-of-type article:first-of-type{
    width: 80%;
@@ -37,13 +41,17 @@ section:first-of-type article:first-of-type{
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
+   margin-bottom: 2em;
 }
 
-section:first-of-type article h2{
-  font-size:small;
-  
-}
+section:first-of-type article + article {
 
+  display: flex;
+  flex-direction: column-reverse;
+}
+section:first-of-type h2{
+    font-size: small;
+}
 section:first-of-type p{
  text-align: center;
  }
@@ -56,11 +64,74 @@ section:first-of-type p + p{
  
 section:first-of-type > img{
   width: 100%;
-  order: -1;
+  order: -10;
 }
 
 
 section:nth-of-type(2){
   display: flex;
   flex-wrap: wrap;
+  background-color: var(--color-backgroundsection);
+  color: var(--color-background1);
+  font-size: small;
+  align-items: center;
+  justify-content: center;
 }
+
+section:nth-of-type(2) h2{
+    font-size: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: var(--color-textred);
+  }
+
+  section:nth-of-type(2) button{
+ 
+   background-color: var( --color-buttonsecondpage);
+   color: var(--color-background1);
+   border: none;
+   border-radius: 0.1em;
+   padding: 0.5em 1.5em 0.5em 1.5em;
+   font-size: medium;
+   text-transform: uppercase;
+   margin: 1em 1em 1em 1em;
+   
+
+
+  }
+
+  section:nth-of-type(2) article:first-of-type{
+    text-align: center;
+    width: 70em;
+    margin: 2em;
+  }
+
+
+  section:nth-of-type(2) article + article{
+
+    margin:  2em;
+  
+      
+
+  }
+
+ 
+  section:nth-of-type(2) h3{
+
+   color: var(--color-textred);
+   text-transform: uppercase;
+  
+      
+
+  }
+ 
+
+  section:nth-of-type(2) td{
+ border-bottom: solid .01em var( --color-footerbutton);
+ padding: .3em;
+   
+       
+ 
+   }
+ 
+ 
