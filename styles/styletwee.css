@@ -97,6 +97,9 @@ section:nth-of-type(2) article + article {
 section:nth-of-type(2) h3 {
   color: var(--color-textred);
   text-transform: uppercase;
+  font-size: medium;
+  font-weight: 200;
+  font-family: openSansCondensedLight;
 }
 
 section:nth-of-type(2) td {

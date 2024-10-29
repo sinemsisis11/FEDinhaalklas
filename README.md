@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jimmyssecond.jpg" width="375px" alt="dit is e tweede pagina van jimmy's hierin zie je twee producten van de tabasco line">
  
 </details>
 
@@ -61,20 +61,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
 ## Breakdownschets (week 1)
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/jimmyshomepagopdelen.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/jimmyshomepage.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/jimmysnav.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/jimmysseccondpage.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -89,7 +88,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb alleen nog de html gemaakt en de schetsen van hoe ik de website kan opdelen.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -130,7 +129,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb nu een deel van header gemaakt en ook deel section twee. Ik heb nog moeite met de eerste section goed zetten.
+  en de tweede section is niet responsive.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -150,6 +150,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - alles moet een custom property worden in de root, kleuren en textgrootte sws
   - eerste line "dunking is opzoek naar jou"-banner, in de header" en dan met position
   - order now button ergens in de main
+  - height geven aan de eerste section
 
 </details>
 
@@ -178,7 +179,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  -nog steeds problemen met de nav en eerste section.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -189,6 +190,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+ -nog steeds problemen met de nav en eerste section
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -237,8 +239,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
+  1. Rupert, D. (2019, 28 juli). Hide content. (https://www.a11yproject.com/posts/how-to-hide-content/. https://www.a11yproject.com/posts/how-to-hide-content/)
+  In mijn homepage heb ik dit gebruikt om h2 te verbergen in section 2.
+  2. (https://dlo.mijnhva.nl/content/enforced/609314-FDMCI-2000FED121-DMCI-CMD-2425/FED%2024-25%20-%20Blok%201%20-%20Intro%20kleurtjes%20met%20has%20en%20lightdark.pdf) gebruikt voor light-dark modus
   3. ...
 
 </details>

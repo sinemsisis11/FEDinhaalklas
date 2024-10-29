@@ -19,7 +19,19 @@
       </button>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+            <li>
+                <details>
+                  <summary><a href="index.html">Home</a></summary>
+                  <label>
+                    <input type="radio" name="kleurtjes" value="light" />
+                    licht
+                  </label>
+                  <label>
+                    <input type="radio" name="kleurtjes" value="dark" />
+                    donker
+                  </label>
+                </details>
+              </li>
           <li>
             <details>
               <summary><a href="#">Popcorn</a></summary>
@@ -101,7 +113,6 @@
         <article>
           <h3>Nutritional values per 100 grams</h3>
           <table>
-            <!-- <caption>* RI: Reference intake of an average adult (8400kJ/2000kcal)</caption> -->
             <tbody>
             <tr>
               <td>Energy</td>
@@ -233,14 +244,6 @@
         <li>Alexander Bellstraat 11</li>
         <li><button>Contact us</button></li>
       </ul>
-      <label>
-        <input type="radio" name="kleurtjes" value="light">
-          licht
-        </label>
-        <label>
-          <input type="radio" name="kleurtjes" value="dark">
-          donker
-        </label> 
     </footer>
     <script defer src="/scripts/script.js"></script>
   </body>
