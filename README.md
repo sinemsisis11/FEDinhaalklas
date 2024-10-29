@@ -242,6 +242,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1. Rupert, D. (2019, 28 juli). Hide content. (https://www.a11yproject.com/posts/how-to-hide-content/. https://www.a11yproject.com/posts/how-to-hide-content/)
   In mijn homepage heb ik dit gebruikt om h2 te verbergen in section 2.
   2. (https://dlo.mijnhva.nl/content/enforced/609314-FDMCI-2000FED121-DMCI-CMD-2425/FED%2024-25%20-%20Blok%201%20-%20Intro%20kleurtjes%20met%20has%20en%20lightdark.pdf) gebruikt voor light-dark modus
-  3. ...
+  3. 
 
 </details>
