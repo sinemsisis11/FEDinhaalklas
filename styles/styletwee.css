@@ -40,6 +40,7 @@ section:first-of-type article + article {
 }
 section:first-of-type h2 {
   font-size: small;
+  color: var(--color-text);
 }
 section:first-of-type p {
   text-align: center;

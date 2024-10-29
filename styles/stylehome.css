@@ -51,11 +51,11 @@ section:nth-of-type(2) article {
   background-image: radial-gradient(
       circle at left top,
       transparent 2em,
-      white 0
+      var(--color-background1) 0
     ),
-    radial-gradient(circle at right top, transparent 2em, white 0),
-    radial-gradient(circle at right bottom, transparent 2em, white 0),
-    radial-gradient(circle at left bottom, transparent 2em, white 0);
+    radial-gradient(circle at right top, transparent 2em, var(--color-background1) 0),
+    radial-gradient(circle at right bottom, transparent 2em, var(--color-background1) 0),
+    radial-gradient(circle at left bottom, transparent 2em, var(--color-background1) 0);
 
   background-size: 50% 50%;
   background-repeat: no-repeat;
@@ -69,6 +69,7 @@ section:nth-of-type(2) article {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  
 }
 
 section:nth-of-type(2) h3 {
@@ -121,9 +122,13 @@ section:nth-of-type(3) article h2 {
 }
 
 section:nth-of-type(3) button {
-  color: var(--color-background);
+  color: var(--color-text);
   padding: 0.75em 2em 0.75em 2em;
   margin-top: 3em;
+  background-color: var(--color-background1);
+  
+  
+
 }
 
 section:nth-of-type(3) p:first-of-type {

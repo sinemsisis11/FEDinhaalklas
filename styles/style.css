@@ -31,23 +31,53 @@
   src: url("../fonts/latoRegular.woff2");
 }
 
- :root {
-  --color-text: #111;
-  --color-background1: rgb(255, 255, 255);
-  --color-background: rgb(19, 39, 72);
-  --color-background2: rgb(229, 216, 249);
-  --color-textred: rgb(254, 71, 72);
-  --color-button: rgb(1, 74, 127);
-  --blokje-shadow-color: rgb(216, 206, 233);
-  --color-footertext: rgb(110, 123, 131);
-  --color-backgroundsection: rgb(6, 18, 26);
-  --color-focus: rgb(144, 238, 144);
-  --color-footerbutton: rgb(108, 117, 125);
+   /* :root {
+   
+
+  --color-text:  #111;
+  --color-background1:rgb(255, 255, 255);
+  --color-background:rgb(19, 39, 72);
+  --color-background2:rgb(229, 216, 249);
+  --color-textred:rgb(254, 71, 72);
+  --color-button:rgb(1, 74, 127);
+  --blokje-shadow-color:rgb(216, 206, 233);
+  --color-footertext:rgb(110, 123, 131);
+  --color-backgroundsection:rgb(6, 18, 26);
+  --color-focus:rgb(144, 238, 144);
+  --color-footerbutton:rgb(108, 117, 125);
   --color-buttonsecondpage: rgb(2, 170, 250);
   --color-backgroundsecond:rgb(243, 236, 252);
+}     */
+  
+  :root {
+  color-scheme: light dark; 
+
+  --color-text: light-dark( #ffffff, #111);
+  --color-background1: light-dark(#111, #ffffff);
+  --color-background: light-dark(#ecd8b7, #132748);
+  --color-background2: light-dark(#1a2706, #e5d8f9);
+  --color-textred: light-dark(#01b8b7, #fe4748);
+  --color-button: light-dark(#feb580, #014a7f);
+  --blokje-shadow-color: light-dark(#273116, #d8cee9);
+  --color-footertext: light-dark(#91847c,  #6e7b83);
+  --color-backgroundsection: light-dark(#f9ede5, #06121a);
+  --color-focus: light-dark(#6f116f, #90ee90);
+  --color-footerbutton: light-dark(#938a82, #6c757d);
+  --color-buttonsecondpage: light-dark(#fd5505, #02aafa);
+  --color-backgroundsecond: light-dark(#0c1303, #f3ecfc);
 }  
- 
- /* @media (prefers-color-scheme: light) {
+  
+
+:root:has([value="light"]:checked) {
+	color-scheme:light;
+}
+
+:root:has([value="dark"]:checked) {
+	color-scheme:dark;
+}   
+
+/* 
+ @media (prefers-color-scheme: light) {
 	:root {
 		color-scheme: light;
 
@@ -185,6 +215,8 @@ header a {
 
 header > button {
   padding: .5em 1.5em .5em 1.5em;
+  background-color: var(--color-background1);
+  color: var(--color-text);
 
 }
 
