@@ -7,6 +7,9 @@
   white-space: nowrap;
   width: 1px;
 }
+/* Ik heb deze stuk code van de website a11y over hoe ik iets kan weglaten. */
+
+
 
 section:first-of-type {
   /* position: relative; */
@@ -28,20 +31,14 @@ section:first-of-type {
 }
 
 section:first-of-type h1 img {
-  /* position: absolute; */
   margin: 0;
-
-  /* top: 0; */
-  /* object-position: center center;
-  height: 100%;
-  object-fit: cover;  */
 }
 
 section:nth-of-type(2) {
   background-color: var(--color-background2);
   display: flex;
   flex-wrap: wrap;
-  gap: 3em;
+  gap: 5.5em;
   justify-content: center;
 }
 
@@ -61,6 +58,7 @@ section:nth-of-type(2) article {
   background-repeat: no-repeat;
   background-position: left top, right top, right bottom, left bottom;
   margin-top: 4em;
+  
   position: relative;
   width: 17em;
   height: 24em;
@@ -261,7 +259,7 @@ section:last-of-type nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr; 
   }
-
+/* Ik heb bij deze code inspiratie gehaald bij chatgpt. */
   section:nth-of-type(3) {
     display: grid;
     grid-template-columns: 1fr 1fr; 

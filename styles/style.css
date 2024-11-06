@@ -75,8 +75,16 @@
 :root:has([value="dark"]:checked) {
 	color-scheme:dark;
 }   
+/* :root tot hier heb ik van de powerpoint die op dlo staat */
+
+
+::selection {
+  background-color: var(--color-focus);
+  color: var(--color-text);
+}
 
 /* 
+
  @media (prefers-color-scheme: light) {
 	:root {
 		color-scheme: light;
@@ -295,7 +303,3 @@ footer button {
   font-weight: bolder;
   background-color: var(--color-footerbutton);
 }
-/* 
-label{
-  margin: 2em;
-} */
