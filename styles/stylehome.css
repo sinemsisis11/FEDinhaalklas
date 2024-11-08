@@ -243,6 +243,7 @@ section:last-of-type nav ul {
 
 section:last-of-type nav ul li a {
   display: block;
+  /* door display blok gedraagt de a element zich nu als een blok */
   width: 1em;
   aspect-ratio: 1/1;
   /* aspect-ratio zorgt ervoor dat de elementen een ratio van 1/1 hebben */
